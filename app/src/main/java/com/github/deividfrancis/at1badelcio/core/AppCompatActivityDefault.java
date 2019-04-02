@@ -2,7 +2,6 @@ package com.github.deividfrancis.at1badelcio.core;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -36,9 +35,6 @@ public class AppCompatActivityDefault extends AppCompatActivity {
 
         String text = null;
         switch (item.getItemId()) {
-//            case R.id.item_voltar:
-//                text = "Vou voltar";
-//                break;
             case R.id.item_sair:
                 alertDialogExit();
                 break;

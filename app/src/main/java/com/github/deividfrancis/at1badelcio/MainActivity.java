@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivityDefault {
         setContentView(R.layout.activity_main);
 
         TextView txtSobre = findViewById(R.id.txtSobre);
-        txtSobre.setText("At do 1 bimestre se SI, do profº Adelcio, com o objetivo de aplicar em pratica conteudo mostrado em sala.");
+        txtSobre.setText("At do 1 bimestre se SI, do profº Adelcio, com o objetivo de aplicar em pratica conteúdo mostrado em sala.");
 
     }
 
